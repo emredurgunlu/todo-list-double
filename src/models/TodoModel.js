@@ -1,7 +1,7 @@
 class TodoModel {
-    constructor(title, items) {
+    constructor(title, sub) {
       this.title = title;
-      this.items = items;
+      this.sub = sub;
     }
   }
 

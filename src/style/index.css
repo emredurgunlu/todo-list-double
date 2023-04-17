@@ -1,55 +1,59 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 /* https://gradientbuttons.colorion.co/ */
 
 .btn-red {
-  width: 150px;
-background-image: linear-gradient(
-  to right,
-  #e52d27 0%,
-  #b31217 51%,
-  #e52d27 100%
-);
-margin: 10px;
-padding: 15px 45px;
-text-align: center;
-text-transform: uppercase;
-transition: 0.5s;
-background-size: 200% auto;
-color: white;
-box-shadow: 0 0 20px #eee;
-border-radius: 10px;
-}
-
-.btn-red:hover {
-background-position: right center; /* change the direction of the change here */
-color: #fff;
-text-decoration: none;
-}
-
-       
-.btn-indigo {
-  width: 150px;
-  background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+  width: 100px;
+  background-image: linear-gradient(
+    to right,
+    #e52d27 0%,
+    #b31217 51%,
+    #e52d27 100%
+  );
   margin: 10px;
-  padding: 15px 45px;
+  padding: 5px 15px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-red:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-indigo {
+  width: 100px;
+  background-image: linear-gradient(
+    to right,
+    #16222a 0%,
+    #3a6073 51%,
+    #16222a 100%
+  );
+  margin: 10px;
+  padding: 5px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
 }
@@ -60,28 +64,27 @@ text-decoration: none;
   text-decoration: none;
 }
 
-
 /* The alert message box */
 .alert {
-padding: 20px;
-background-color: #f44336; /* Red */
-color: white;
-margin-bottom: 15px;
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
 }
 
 /* The close button */
 .closebtn {
-margin-left: 15px;
-color: white;
-font-weight: bold;
-float: right;
-font-size: 22px;
-line-height: 20px;
-cursor: pointer;
-transition: 0.3s;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 /* When moving the mouse over the close button */
 .closebtn:hover {
-color: black;
+  color: black;
 }
